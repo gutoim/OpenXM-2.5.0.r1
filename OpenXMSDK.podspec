@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
 
 	spec.xcconfig = {
 			:FRAMEWORK_SEARCH_PATHS => ‘\”$(PODS_ROOT)/OpenXMSDK\”’,
-	   	 	:LIBRARY_SEARCH_PATHS" => ‘$(PODS_ROOT)/OpenXMSDK’,
+	   	 	:LIBRARY_SEARCH_PATHS => ‘$(PODS_ROOT)/OpenXMSDK’,
     			:OTHER_LDFLAGS => "-lObjC"
 			}
 end
